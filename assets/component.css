@@ -1,0 +1,67 @@
+
+
+/* Content styles */
+.modal-body {
+	color: #fff;
+	background: #e74c3c;
+	position: relative;
+	border-radius: 3px;
+	margin: 0 auto;
+}
+
+.modal-body h3 {
+	margin: 0;
+	padding: 0.4em;
+	text-align: center;
+	font-size: 2.4em;
+	font-weight: 300;
+	opacity: 0.8;
+	background: rgba(0,0,0,0.1);
+	border-radius: 3px 3px 0 0;
+}
+
+.modal-body > div {
+	padding: 15px 40px 30px;
+	margin: 0;
+	font-weight: 300;
+	font-size: 1.15em;
+}
+
+.modal-body > div p {
+	margin: 0;
+	padding: 10px 0;
+}
+
+.modal-body > div ul {
+	margin: 0;
+	padding: 0 0 30px 20px;
+}
+
+.modal-body > div ul li {
+	padding: 5px 0;
+}
+
+.modal-body button {
+	display: block;
+	margin: 0 auto;
+	font-size: 0.8em;
+}
+
+button.md-close{
+	border: none;
+	padding: 0.6em 1.2em;
+	background: #c0392b;
+	color: #fff;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 1em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: inline-block;
+	margin: 3px 2px;
+	border-radius: 2px;
+}
+
+button.md-close:hover {
+	background: #A5281B;
+}
